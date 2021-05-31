@@ -1,0 +1,312 @@
+/******** TAG SELECTORS **********/
+
+body{
+  margin: 0;
+  text-align: center;
+  background-color: #222629;
+}
+
+a{
+  text-decoration: none !important;
+  color: #6B6E70 !important;
+}
+
+h2{
+  padding-bottom: 20px;
+  color: #6B6E70;
+  font-size: 30px;
+  font-family: 'Ubuntu';
+}
+
+h6{
+  font-family: 'Ubuntu';
+  color: #6B6E70;
+  padding-bottom: 20px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+/******** CLASS SELECTORS **********/
+
+.heading-container{
+  background-color: #222629;
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+}
+
+.mainheaderquote{
+  color: #6b6e70;
+  font-size: 20px;
+  margin: 0;
+  font-family: 'Ubuntu', serif;
+  position: absolute;
+  font-weight: lighter;
+  top: 65%;
+  left: 65%;
+}
+
+.mainheader{
+  color: #6b6e70;
+  font-size: 50px;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  position: absolute;
+  top: 55%;
+  left: 12%;
+}
+
+.maincontentcareer{
+  color: #6b6e70;
+  font-size: 50px;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  position: absolute;
+  top: 94%;
+  left: 42%;
+}
+
+.maincontentabout{
+  color: #6b6e70;
+  font-size: 50px;
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  position: absolute;
+  top: 90%;
+  left: 38%;
+}
+
+.maincontent{
+  color: #6b6e70;
+  font-size: 15px;
+  margin: 0;
+  font-family: 'Montserrat';
+  position: absolute;
+  padding: 10%;
+  top: 70%;
+}
+
+
+.searchcustom{
+  padding: 3%;
+  position: absolute;
+  top: 22%;
+  right: 0%;
+
+}
+
+.car-img{
+  width: 100% !important;
+  height: 100% !important;
+  padding: 4%;
+}
+.container-fluid{
+  padding: 3% 7%;
+}
+
+.form-control{
+  margin: auto;
+}
+.form-label{
+  margin: auto;
+}
+
+
+.logo {
+  width: 5%;
+  position: absolute;
+  left: 6%;
+  top: 55%;
+
+
+}
+
+.nav-link{
+  font-weight: bolder;
+  font-size: 100%;
+  color: #61892f !important;
+  transition: font-size .5s;
+}
+
+.dropdown-item{
+  color: #61892f !important;
+  font-weight: bold;
+}
+
+
+.navbar{
+  padding: 3% 10%;
+}
+
+ .nav-link:hover {
+   font-size: 125%;
+ }
+
+ .btn {
+  background: #61892F;
+  background-image: -webkit-linear-gradient(top, #61892F, #61892F);
+  background-image: -moz-linear-gradient(top, #61892F, #61892F);
+  background-image: -ms-linear-gradient(top, #61892F, #61892F);
+  background-image: -o-linear-gradient(top, #61892F, #61892F);
+  background-image: linear-gradient(to bottom, #61892F, #61892F);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: white !important;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.carousel{
+  position: relative;
+}
+
+.carousel-heading{
+  background-color: #222629;
+  text-align: center;
+  color: #6b6e70;
+  padding: 3% 5%;
+  font-weight: bold;
+
+}
+.carousel-text{
+
+  background-color: #222629;
+  text-align: center;
+  color: #6b6e70;
+  padding: 3% 5%;
+
+
+}
+
+.divisions{
+  padding: 10%;
+  font-size: 20px;
+}
+
+.navbar-nav {
+  margin : auto;
+}
+
+.content-heading-white{
+    color: #474b4f;
+    font-weight: bolder;
+}
+
+.content-heading{
+  font-weight: bolder;
+}
+.carousel-heading-about{
+  background-color: #222629;
+  text-align: center;
+  color: #6B6E70;
+  padding: 3% 5%;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.carousel-text-about{
+
+  background-color: #222629;
+  text-align: justify;
+  color: #6b6e70;
+  padding: 3% 5%;
+  font-size: 20px;
+
+
+}
+
+.content{
+  padding: 3% 7%;
+}
+.carousel-text-philosophy{
+
+  background-color: #222629;
+  text-align: center;
+  color: #6b6e70;
+  padding: 3% 5%;
+  font-size: 30px;
+
+
+}
+
+.row{
+  color: #222629;
+}
+.col{
+  display: inline-block;
+}
+
+.client-image{
+  width: 100px;
+  height: 100px;
+}
+
+.car-img{
+  opacity: 15%;
+}
+
+.listhome{
+  text-align: justify;
+  padding: 3% 40%;
+}
+.col{
+  padding: 0% 10%;
+}
+
+.footercontentheading{
+  font-weight: bolder;
+  font-size: 20px;
+  color: #474b4f;
+}
+
+
+/******** ID SELECTORS**********/
+
+#mainHeading {
+color: #6b6e70;
+font-size: 50px;
+margin: 0;
+padding-top: 50px;
+font-family: 'Merriweather', serif;
+}
+
+#about{
+  background-color: #222629;
+  color: #6b6e70;
+}
+
+#services {
+  color: #6B6E70;
+}
+
+#quote{
+  color: #6B6E70;
+}
+
+#clients{
+  color: #474b4f;
+}
+
+#projects{
+  color: #6b6e70;
+}
+
+#contact{
+  background-color: #222629;
+  color: #6b6e70;
+}
+
+#footer{
+  color: #474b4f;
+  text-align: justify;
+  padding: 3% 7%;
+}
